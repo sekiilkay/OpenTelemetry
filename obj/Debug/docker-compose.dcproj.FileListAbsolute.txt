@@ -1,0 +1,1 @@
+C:\Users\sekii\source\repos\OpenTelemetry.App\obj\Debug\docker-compose.dcproj.CoreCompileInputs.cache

@@ -1,0 +1,82 @@
+name: dockercompose3510771853090835649
+services:
+  elasticsearch:
+    environment:
+      ELASTIC_PASSWORD: DkIedPPSCb
+      ELASTIC_USERNAME: elastic
+      discovery.type: single-node
+      xpack.security.enabled: "false"
+    image: docker.elastic.co/elasticsearch/elasticsearch:8.8.1
+    networks:
+      default: null
+    ports:
+      - mode: ingress
+        target: 9200
+        published: "9200"
+        protocol: tcp
+    volumes:
+      - type: volume
+        source: elastic_db
+        target: /usr/share/elasticsearch/data
+        volume: {}
+  jaeger:
+    container_name: jaeger-container
+    image: jaegertracing/all-in-one:1.49
+    networks:
+      default: null
+    ports:
+      - mode: ingress
+        target: 4317
+        published: "4317"
+        protocol: tcp
+      - mode: ingress
+        target: 4318
+        published: "4318"
+        protocol: tcp
+      - mode: ingress
+        target: 16686
+        published: "16686"
+        protocol: tcp
+  kibana:
+    depends_on:
+      elasticsearch:
+        condition: service_started
+        required: true
+    environment:
+      ELASTICSEARCH_HOSTS: http://elasticsearch:9200
+    image: docker.elastic.co/kibana/kibana:8.8.1
+    networks:
+      default: null
+    ports:
+      - mode: ingress
+        target: 5601
+        published: "5601"
+        protocol: tcp
+  rabbitmq:
+    image: rabbitmq:3.12.2-management
+    networks:
+      default: null
+    ports:
+      - mode: ingress
+        target: 5672
+        published: "5672"
+        protocol: tcp
+      - mode: ingress
+        target: 15672
+        published: "15672"
+        protocol: tcp
+  redis:
+    image: redis:7.0
+    networks:
+      default: null
+    ports:
+      - mode: ingress
+        target: 6379
+        published: "6379"
+        protocol: tcp
+networks:
+  default:
+    name: dockercompose3510771853090835649_default
+volumes:
+  elastic_db:
+    name: dockercompose3510771853090835649_elastic_db

@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "LksdusC+f/CJCTcwh59oC8LI+a0NBHa+ndSgLO6QRVoiI9GCPj57907lAoof97vGV0+9zYTAMzMfnb3Oj7Andw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\sekii\\source\\repos\\OpenTelemetry.App\\Common.Shared\\Common.Shared.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\sekii\\.nuget\\packages\\microsoft.io.recyclablememorystream\\2.3.2\\microsoft.io.recyclablememorystream.2.3.2.nupkg.sha512"
+  ],
+  "logs": []
+}

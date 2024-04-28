@@ -1,0 +1,12 @@
+C:\Users\sekii\source\repos\Logging.Shared\bin\Debug\net8.0\Logging.Shared.deps.json
+C:\Users\sekii\source\repos\Logging.Shared\bin\Debug\net8.0\Logging.Shared.dll
+C:\Users\sekii\source\repos\Logging.Shared\bin\Debug\net8.0\Logging.Shared.pdb
+C:\Users\sekii\source\repos\Logging.Shared\obj\Debug\net8.0\Logging.Shared.csproj.AssemblyReference.cache
+C:\Users\sekii\source\repos\Logging.Shared\obj\Debug\net8.0\Logging.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sekii\source\repos\Logging.Shared\obj\Debug\net8.0\Logging.Shared.AssemblyInfoInputs.cache
+C:\Users\sekii\source\repos\Logging.Shared\obj\Debug\net8.0\Logging.Shared.AssemblyInfo.cs
+C:\Users\sekii\source\repos\Logging.Shared\obj\Debug\net8.0\Logging.Shared.csproj.CoreCompileInputs.cache
+C:\Users\sekii\source\repos\Logging.Shared\obj\Debug\net8.0\Logging.Shared.dll
+C:\Users\sekii\source\repos\Logging.Shared\obj\Debug\net8.0\refint\Logging.Shared.dll
+C:\Users\sekii\source\repos\Logging.Shared\obj\Debug\net8.0\Logging.Shared.pdb
+C:\Users\sekii\source\repos\Logging.Shared\obj\Debug\net8.0\ref\Logging.Shared.dll

@@ -1,0 +1,12 @@
+C:\Users\sekii\source\repos\OpenTelemetry.App\Common.Shared\bin\Debug\net8.0\Common.Shared.deps.json
+C:\Users\sekii\source\repos\OpenTelemetry.App\Common.Shared\bin\Debug\net8.0\Common.Shared.dll
+C:\Users\sekii\source\repos\OpenTelemetry.App\Common.Shared\bin\Debug\net8.0\Common.Shared.pdb
+C:\Users\sekii\source\repos\OpenTelemetry.App\Common.Shared\obj\Debug\net8.0\Common.Shared.csproj.AssemblyReference.cache
+C:\Users\sekii\source\repos\OpenTelemetry.App\Common.Shared\obj\Debug\net8.0\Common.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sekii\source\repos\OpenTelemetry.App\Common.Shared\obj\Debug\net8.0\Common.Shared.AssemblyInfoInputs.cache
+C:\Users\sekii\source\repos\OpenTelemetry.App\Common.Shared\obj\Debug\net8.0\Common.Shared.AssemblyInfo.cs
+C:\Users\sekii\source\repos\OpenTelemetry.App\Common.Shared\obj\Debug\net8.0\Common.Shared.csproj.CoreCompileInputs.cache
+C:\Users\sekii\source\repos\OpenTelemetry.App\Common.Shared\obj\Debug\net8.0\Common.Shared.dll
+C:\Users\sekii\source\repos\OpenTelemetry.App\Common.Shared\obj\Debug\net8.0\refint\Common.Shared.dll
+C:\Users\sekii\source\repos\OpenTelemetry.App\Common.Shared\obj\Debug\net8.0\Common.Shared.pdb
+C:\Users\sekii\source\repos\OpenTelemetry.App\Common.Shared\obj\Debug\net8.0\ref\Common.Shared.dll
